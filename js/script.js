@@ -41,3 +41,7 @@ $("#button9").click(function() {
     performLogic("#button9","#tile9");
 });
 
+let currentplayer = "X";
+let currentturns = 0;
+let finalresult = false;
+function performLogic()  
